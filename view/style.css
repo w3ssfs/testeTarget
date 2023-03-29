@@ -1,0 +1,101 @@
+body {
+  background-color: #f8f8f8;
+  font-family: "Proza Libre", sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+button {
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #564ddb;
+}
+
+#txt {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+#txtStr {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+#title {
+  align-items: center;
+}
+
+.card-x {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-i {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+#str {
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}

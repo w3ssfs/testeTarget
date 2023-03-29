@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Teste Target</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cards">
+        <h3>Sequência de Fibonacci</h3>
+        <div class="card">
+          <label for="numero">Digite um número: </label>
+          <input type="number" id="number" name="numero" min="0" required />
+          <button id="btn">Verificar</button>
+          <label for="result" id="txt"> </label>
+        </div>
+      </div>
+
+      <div class="cards">
+        <h3 id="title">Faturamento diário de uma distribuidora</h3>
+        <div class="card-x">
+          <label class="card-i" for="numero"
+            >O menor valor de faturamento ocorrido em um dia do mês: R$
+            373.78</label
+          >
+          <label class="card-i" for="numero"
+            >O maior valor de faturamento ocorrido em um dia do mês: R$
+            48924.24</label
+          >
+          <label class="card-i" for="numero"
+            >Número de dias em que o valor de faturamento diário foi superior à
+            média mensal: 10 Dias</label
+          >
+        </div>
+      </div>
+
+      <div class="cards">
+        <h3>Faturamento mensal de uma distribuidora</h3>
+        <div class="card">
+          <div class="card-x">
+            <label for="numero"> Total mensal da distribuidora: </label>
+            <label for="numero"> Percentual de representação </label>
+            <label class="card-i" id="sp" for="numero">SP - </label>
+            <label class="card-i" id="rj" for="numero">RJ -</label>
+            <label class="card-i" id="mg" for="numero">MG -</label>
+            <label class="card-i" id="es" for="numero">ES -</label>
+            <label class="card-i" id="outros" for="numero">Outros -</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards">
+        <h3>Reverse string</h3>
+        <div class="card">
+          <label for="txt">Digite uma palavra: </label>
+          <input type="text" id="str" name="Reverse" required />
+          <button id="btnStr">Verificar</button>
+          <label for="result" id="txtStr"> </label>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
